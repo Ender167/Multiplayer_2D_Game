@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e619e20be6d0de4ca5ba067a82f66bc, type: 3}
+  m_Name: Frigate_Red
+  m_EditorClassIdentifier: 
+  shipName: Fighter01
+  maxHitpoints: 100
+  maxShields: 70
+  shieldRegenStartDelay: 6
+  shieldRegenRate: 5
+  shieldRegenFreq: 2
+  maxEnergy: 100
+  energyRegenStartDelay: 1
+  energyRegenRate: 1
+  energyRegenFreq: 1
+  isFighter: 0
+  isCruiser: 1
+  maxSpeed: 7
+  maxTurnSpeed: 50
+  cameraFoV: 7
+  minFollowRange: 20
+  maxFollowRange: 4
+  strafeTimer: 3
+  strafeDuration: 3
+  maxWeaponFireOffset: {x: 1, y: 1}
